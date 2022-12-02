@@ -13,8 +13,8 @@ repositories {
 }
 
 dependencies {
-	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
-	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf' //스프링 다운 받을 때 같이 다운 받았던 thymeleaf
+	implementation 'org.springframework.boot:spring-boot-starter-web' //스프링 다운 받을 때 같이 다운 받았던 web
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
